@@ -46,7 +46,6 @@ favstats(alcohol~Seat,data=davisdata)
 
 The number of people who sat in the back row was 32. The front row contained 33 people, and the middle had the larges amount with 83. 
 
-
 ## Inferential Tests
 ```{r}
 model1 <- aov(alcohol~Seat,data=davisdata)
@@ -66,4 +65,5 @@ A multiple comparison test showcase a substantial difference or a lack of using 
 
 ## Conclusions
 
+To discuss these results, we ran a series of tests and compared the results/ Through a multiple comparison test, we were able to display the number differences and that a large portion of the data agreed that the back row had the most instances of drinking compared to the front and middle seats. The categorical data was organized in numerical summaries. 
 
